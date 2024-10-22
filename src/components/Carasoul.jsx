@@ -1,79 +1,65 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { useState } from 'react';
 
 const testimonials = [
 	{
 		name: 'Theresa Webb',
 		feedback:
 			'Swift Revel empowers me to manage my business finances with confidence and ease...',
-		image: 'https://avatar.iran.liara.run/public/41', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/41',
 	},
 	{
 		name: 'Ronald Richards',
 		feedback:
 			'We needed a payment gateway that could handle our diverse customer base...',
-		image: 'https://avatar.iran.liara.run/public/2', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/2',
 	},
 	{
 		name: 'Mina Stark',
 		feedback:
 			'As a freelancer, managing invoices and chasing payments was a headache...',
-		image: 'https://avatar.iran.liara.run/public/3', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/3',
 	},
 	{
 		name: 'Shay Greer',
 		feedback:
 			'Swift Revel empowers me to manage my business finances with confidence and ease...',
-		image: 'https://avatar.iran.liara.run/public/4', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/4',
 	},
 	{
 		name: 'Leilani Shah',
 		feedback:
 			'As a freelancer, managing invoices and chasing payments was a headache...',
-		image: 'https://avatar.iran.liara.run/public/5', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/5',
 	},
 	{
 		name: 'Zain Mora',
 		feedback:
 			'As a freelancer, managing invoices and chasing payments was a headache...',
-		image: 'https://avatar.iran.liara.run/public/6', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/6',
 	},
 	{
 		name: 'Eli Young',
 		feedback:
 			'Swift Revel empowers me to manage my business finances with confidence and ease...',
-		image: 'https://avatar.iran.liara.run/public/7', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/7',
 	},
 	{
 		name: 'Eliza Daniels',
 		feedback:
 			'As a freelancer, managing invoices and chasing payments was a headache...',
-		image: 'https://avatar.iran.liara.run/public/8', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/8',
 	},
 	{
 		name: 'Luciano Cook',
 		feedback:
 			'Swift Revel empowers me to manage my business finances with confidence and ease...',
-		image: 'https://avatar.iran.liara.run/public/9', // Replace with actual image link
+		image: 'https://avatar.iran.liara.run/public/9',
 	},
 ];
 
 const TestimonialCarousel = () => {
-	//   const settings = {
-	//     dots: false,
-	//     infinite: true,
-	//     speed: 500,
-	//     slidesToShow: 1,
-	//     slidesToScroll: 1,
-	//     autoplay: true,
-	//     autoplaySpeed: 2000,
-	//     accessibility:true,
-	//     arrows:false,
-	//     adaptiveHeight:true
-	//   };
-
 	const settings = {
 		infinite: true,
 		slidesToShow: 3,
