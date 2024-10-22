@@ -1,11 +1,7 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
-  text-align: center;
+	text-align: center;
 }
 
-
 #root {
-  height: 100vh; /* This will ensure the root div takes the full viewport height */
+	height: 100vh;
 }

@@ -31,60 +31,15 @@
 	animation: gradient-animation 15s ease infinite;
 }
 
-/* @keyframes sine-wave {
-	0% {
-		transform: translateY(0);
-	}
-	25% {
-		transform: translateY(-50px);
-	}
-	50% {
-		transform: translateY(0);
-	}
-	75% {
-		transform: translateY(50px);
-	}
-	100% {
-		transform: translateY(0);
-	}
-} */
-
-/* .animate-sine-wave {
-	animation: sine-wave 4s ease-in-out infinite;
-} */
-
-/* @keyframes sine-wave {
-	0% {
-		transform: translateY(-50px);
-	}
-	25% {
-		transform: translateY(0);
-	}
-	50% {
-		transform: translateY(50px);
-	}
-	75% {
-		transform: translateY(0);
-	}
-	100% {
-		transform: translateY(50px);
-	}
-} */
-
-/* .animate-sine-wave-neg {
-	animation: sine-wave 4s ease-in-out infinite alternate-reverse;
-} */
-
 @keyframes card-up {
 	0% {
 		transform: translateY(50px);
 	}
 	50% {
 		transform: translateY(-50px);
-		/* animation-timing-function: ease-out; Ease at mid position */
 	}
 	70% {
-		transform: translateY(-50px); /* Pause for 1 second */
+		transform: translateY(-50px);
 	}
 	100% {
 		transform: translateY(50px);
@@ -97,10 +52,9 @@
 	}
 	50% {
 		transform: translateY(50px);
-		/* animation-timing-function: ease-out; */
 	}
 	70% {
-		transform: translateY(50px); /* Pause for 1 second */
+		transform: translateY(50px);
 	}
 	100% {
 		transform: translateY(-50px);
